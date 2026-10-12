@@ -1,0 +1,1 @@
+  CREATE_STREAM @0 {NAME:moving_max_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.moving_max_virtual_sqr STREAM:569}

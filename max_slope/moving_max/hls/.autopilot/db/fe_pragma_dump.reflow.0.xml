@@ -1,0 +1,5 @@
+<pragmas>
+<pragma file="moving_max.cpp" line="25" pragmaType="pipeline" parentfunction="moving_max" off="0" ii="1" rewind="0" style=""/>
+<pragma file="moving_max.cpp" line="16" pragmaType="unroll" parentfunction="moving_max" factor="-1" skip_exit_check="0"/>
+<pragma file="moving_max.cpp" line="10" pragmaType="array_partition" parentfunction="moving_max" dim="1" factor="0" mode="complete" dynamic="0" variable="window"/>
+</pragmas>

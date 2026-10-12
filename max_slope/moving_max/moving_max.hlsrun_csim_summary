@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "D:/Learn\\robotdreams\\Homework_007\\max_slope\\moving_max\\moving_max.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "10/12/26 22:27:41",
+ "timestampMillis": "1791833261901",
+ "buildStep": {
+  "cmdId": "e3b580e4-3dff-4d8a-845c-bd9773899f82",
+  "name": "vitis-run",
+  "logFile": "D:/Learn\\robotdreams\\Homework_007\\max_slope\\moving_max\\logs\\moving_max.steps.log",
+  "commandLine": "D:/AMDdesign/2026.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\Learn\\robotdreams\\Homework_007\\max_slope\\hls_config.cfg --work_dir moving_max ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\Learn\\robotdreams\\Homework_007\\max_slope\\hls_config.cfg",
+   "--work_dir",
+   "moving_max"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Learn\\robotdreams\\Homework_007\\max_slope"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:27:41",
+ "timestampMillis": "1791833261901",
+ "status": {
+  "cmdId": "e3b580e4-3dff-4d8a-845c-bd9773899f82",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "10/12/26 22:27:45",
+ "timestampMillis": "1791833265752",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Learn\\robotdreams\\Homework_007\\max_slope\\moving_max.h",
+     "D:/Learn\\robotdreams\\Homework_007\\max_slope\\moving_max.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "10/12/26 22:27:45",
+ "timestampMillis": "1791833265752",
+ "buildStep": {
+  "cmdId": "10a9532d-2ab4-44e7-9dba-78a7fa4c1eea",
+  "name": "",
+  "logFile": "D:/Learn\\robotdreams\\Homework_007\\max_slope\\moving_max\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Learn\\robotdreams\\Homework_007\\max_slope"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:27:45",
+ "timestampMillis": "1791833265752",
+ "status": {
+  "cmdId": "10a9532d-2ab4-44e7-9dba-78a7fa4c1eea",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:27:46",
+ "timestampMillis": "1791833266670",
+ "status": {
+  "cmdId": "10a9532d-2ab4-44e7-9dba-78a7fa4c1eea",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:27:46",
+ "timestampMillis": "1791833266742",
+ "status": {
+  "cmdId": "e3b580e4-3dff-4d8a-845c-bd9773899f82",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:27:46",
+ "timestampMillis": "1791833266742",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:27:46",
+ "timestampMillis": "1791833266743",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

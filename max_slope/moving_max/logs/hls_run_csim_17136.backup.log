@@ -1,0 +1,31 @@
+  **** HLS Build v2026.1 6493734
+INFO: [HLS 200-2005] Using work_dir D:/Learn/robotdreams/Homework_007/max_slope/moving_max 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Learn/robotdreams/Homework_007/max_slope/moving_max/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Learn/robotdreams/Homework_007/max_slope/moving_max'.
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../FPGA-main/lesson_15/HW/moving_max.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'D:/Learn/robotdreams/FPGA-main/lesson_15/HW/moving_max.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../FPGA-main/lesson_15/HW/moving_max.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/Learn/robotdreams/FPGA-main/lesson_15/HW/moving_max.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb_moving_max.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'D:/Learn/robotdreams/Homework_007/max_slope/tb_moving_max.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=moving_max' from hls_config.cfg(6)
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z010clg400-2' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-2'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(9)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(4)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Learn/robotdreams/Homework_007/max_slope/moving_max/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../tb_moving_max.cpp in debug mode
+../../../../tb_moving_max.cpp:3:10: fatal error: 'moving_max.h' file not found
+#include "moving_max.h"
+         ^~~~~~~~~~~~~~
+1 error generated.
+mingw32-make: *** [csim.mk:93: obj/tb_moving_max.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: CSIM Failed
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.259 seconds; peak allocated memory: 168.117 MB.

@@ -1,0 +1,6 @@
+   Build using "D:/AMDdesign/2026.1/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_moving_max.cpp
+   Compiling moving_max.cpp_pre.cpp
+   Compiling tb_moving_max.cpp_pre.cpp
+   Compiling apatb_moving_max_ir.ll
+   Generating cosim.tv.exe

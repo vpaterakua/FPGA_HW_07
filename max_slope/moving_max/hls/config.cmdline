@@ -1,0 +1,3 @@
+relativeroot=D:/Learn/robotdreams/Homework_007/max_slope
+original_argv=--mode hls --cosim --config D:\Learn\robotdreams\Homework_007\max_slope\hls_config.cfg --work_dir moving_max 
+

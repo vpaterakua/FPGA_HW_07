@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_007/max_slope/moving_max/hls/syn/verilog/moving_max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moving_max
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_007/max_slope/moving_max/hls/syn/verilog/moving_max_flow_control_loop_delay_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moving_max_flow_control_loop_delay_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_007/vivado_max_slope/vivado_max_slope.srcs/sim_1/new/tb_moving_max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_moving_max
